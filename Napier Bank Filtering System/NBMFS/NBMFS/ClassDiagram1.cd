@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NBMFS.Database.SaveToFile">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAAQAEAQAAAAA=</HashCode>
+      <FileName>Database\SaveToFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBMFS.Models.Abbreviations">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Abbreviations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBMFS.Models.Email">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAIABAAAAAAAQAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Models\Email.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBMFS.Models.Sms">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Models\Sms.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBMFS.Models.Tweet">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Models\Tweet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBMFS.ViewModels.BaseViewModel">
+    <Position X="4.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NBMFS.ViewModels.MainWindowViewModel">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAAAAQAAAAABACACAgIIAAAAAQgQIBQQACAAAA=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBMFS.Commands.RelayCommand" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Commands\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NBMFS.ViewModels.ShowMessagesViewModel">
+    <Position X="3.5" Y="2.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAQAAAAAAACAAAGAAAAAAMEIAFAAAAAAAgAAAQE=</HashCode>
+      <FileName>ViewModels\ShowMessagesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBMFS.Views.ShowAllMessagesViewModels" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ShowAllMessagesViewModels.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.225" Collapsed="true" />
+  </Class>
+  <Class Name="NBMFS.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="NBMFS.Models.SIR">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAIABAAAAAAAQAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Models\SIR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

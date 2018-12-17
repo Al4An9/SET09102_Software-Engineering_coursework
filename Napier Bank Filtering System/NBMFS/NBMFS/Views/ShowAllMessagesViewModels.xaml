@@ -1,0 +1,38 @@
+﻿<Window x:Class="NBMFS.Views.ShowAllMessagesViewModels"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NBMFS.Views"
+        mc:Ignorable="d"
+        Title="ShowAllMessagesViewModels" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width = "*"/>
+            <ColumnDefinition Width = "5*"/>
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Column="0" Margin="5 5" >
+            <StackPanel>
+
+                <!-- Column1 1 -->
+                <Button Content="{Binding ShowSmsButtonText}" Command="{Binding ShowSmsMessageButtonCommand}" Margin="2 2 2 10"/>
+                <Button Content="{Binding ShowTwitterButtonText}" Command="{Binding ShowTwitterMessageButtonCommand}" Margin="2 2 2 10"/>
+                <Button Content="{Binding ShowEmailButtonText}" Command="{Binding ShowEmailMessageButtonCommand}" Margin="2 2 2 10"/>
+                <Button Content="{Binding ShowSirButtonText}" Command="{Binding ShowSirMessageButtonCommand}" Margin="2 2 2 10"/>
+            </StackPanel>
+        </DockPanel>
+        <DataGrid Grid.Column="1" HorizontalAlignment="Left" Height="284" Margin="92,35,0,0" VerticalAlignment="Top" Width="440"
+                  IsReadOnly="True" ItemsSource="{Binding Path=MessageList,Mode=OneWay,NotifyOnSourceUpdated=True, NotifyOnTargetUpdated=True}"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Type" Binding="{Binding Path=MType}"/>
+                <DataGridTextColumn Header="Header" Binding="{Binding Path=Header}"/>
+                <DataGridTextColumn Header="Subject" Binding="{Binding Path=Subject}"/>
+                <DataGridTextColumn Header="Sender" Binding="{Binding Path=Sender}"/>
+                <DataGridTextColumn Header="Body" Binding="{Binding Path=Body}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+           
+    </Grid>
+</Window>
